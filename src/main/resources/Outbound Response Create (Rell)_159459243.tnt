@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:Create xmlns:ns0="http://schemas.microsoft.com/xrm/2011/Contracts/Services"
+  xmlns:ns1="http://schemas.datacontract.org/2004/07/System.Collections.Generic"
+  xmlns:ns2="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+  xmlns:ns3="http://schemas.microsoft.com/xrm/2011/Metadata"
+  xmlns:ns4="http://schemas.microsoft.com/xrm/2011/Contracts"
+  xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:entity>
+    <ns4:Attributes>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_dc_qtyfulfillment</ns1:key>
+        <ns1:value xsi:type="xs:decimal"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">3.00</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_dt_ship</ns1:key>
+        <ns1:value xsi:type="xs:dateTime"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">2024-03-25T00:00:00</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_itemcode</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">M1555:JR</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_itemlotbincode</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">570</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_itemlotcode</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">AITLOT</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_notificationtype</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">Shipment</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_revenueordercode</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">ORD10584896</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_shipmentlinecode</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">10893378</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_source</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">AIT</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+      <ns4:KeyValuePairOfstringanyType>
+        <ns1:key>h21_nv_uofm_item</ns1:key>
+        <ns1:value xsi:type="xs:string"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">EA</ns1:value>
+      </ns4:KeyValuePairOfstringanyType>
+    </ns4:Attributes>
+    <ns4:EntityState xsi:nil="true" />
+    <ns4:FormattedValues xsi:nil="true" />
+    <ns4:Id>00000000-0000-0000-0000-000000000000</ns4:Id>
+    <ns4:LogicalName>h21_shipmentnotification</ns4:LogicalName>
+    <ns4:RelatedEntities xsi:nil="true" />
+  </ns0:entity>
+</ns0:Create>

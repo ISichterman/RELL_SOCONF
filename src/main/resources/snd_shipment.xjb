@@ -1,0 +1,13 @@
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb"
+          xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          version="2.1">
+    <bindings schemaLocation="snd_shipment.xsd" version="1.0">
+    <!--<globalBindings localScoping="toplevel"/>-->
+        <schemaBindings>
+              <package name="snd_shipment" />
+        </schemaBindings>
+
+        
+    </bindings>
+</bindings>
