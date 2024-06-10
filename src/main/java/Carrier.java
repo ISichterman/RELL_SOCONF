@@ -5,8 +5,8 @@ public class Carrier {
   private String Service;
 
   public Carrier(String carrier, String service) {
-    Carrier = carrier;
-    Service = service;
+    Carrier = carrier == null ? "" : carrier;
+    Service = service == null ? "" : service;
   }
 
   public String getCarrier() {
