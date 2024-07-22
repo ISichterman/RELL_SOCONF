@@ -53,6 +53,7 @@ public class RELL_SOCONF implements NiklasComponent<String, String>, NiklasLogge
 
         for(Documents.Document.DocumentPackages.DocumentPackage pac : input.getDocuments().getDocument().getDocumentPackages().getDocumentPackage()){
             messages.add(generatePackagelineConf(pac, input.getDocuments().getDocument(), TransportCost));
+            TransportCost = 0.0;
         }
 
         for(Create create : messages){
